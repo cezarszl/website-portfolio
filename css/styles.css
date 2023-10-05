@@ -38,7 +38,7 @@ body {
 
 #logo {
   display: block;
-  position: fixed;
+  position: absolute;
 }
 
 .main-navigation {
@@ -354,6 +354,11 @@ main p {
     float: none;
     margin: auto;
   }
+
+  /* 'My Linked In' button on About page for small screens */
+  #download-button {
+    width: 40%;
+  }
 }
 
 /* Hamburger menu for small screens */
@@ -432,6 +437,11 @@ main p {
 
   .page-main h1 {
     font-size: 28px;
+  }
+
+  /* 'My Linked In' button on About page for small screens */
+  #download-button {
+    width: 30%;
   }
 }
 
