@@ -51,17 +51,20 @@
             <a href="mailto:cezarszl@gmail.com">cezarszl@gmail.com</a>
         </div>
         <a href="mailto:cezarszl@gmail.com">Contact me</a>
-        <div>
-            <form action="" method="post">
-                <label class="standard-label" for="contact-email">Email:</label>
-                <input type="email" id="contact-email" required>
-
-                <label class="standard-label" for="msg">Message:</label>
-                <textarea maxlength="100" id="msg"></textarea>
-
-                <input type="submit" id="submit-button" value="Send message">
-            </form>
-        </div>
+        <br>
+        <form action="/" method="get" onsubmit="alert('Thanks for contacting me')">
+            <table>
+                <tr>
+                    <td><label class="standard-label" for="contact-email">Email:</label></td>
+                    <td><input type="email" id="contact-email" required></td>
+                </tr>
+                <tr>
+                    <td><label class="standard-label" for="msg">Message:</label></td>
+                    <td><textarea maxlength="100" id="msg"></textarea></td>
+                </tr>
+            </table>
+            <input type="submit" id="submit-button" value="Send message">
+        </form>
     </main>
     <footer class="page-footer">
         <p>Find me on</p>
