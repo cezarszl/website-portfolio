@@ -39,6 +39,8 @@ body {
 #logo {
   display: block;
   position: absolute;
+  margin-top: 24px;
+  margin-left: 30px;
 }
 
 .main-navigation {
@@ -342,7 +344,7 @@ main p {
 
   .page-main {
     text-align: center;
-    padding: 30px;
+    padding: 40px;
   }
 
   .page-main h1 {
@@ -433,6 +435,7 @@ main p {
 
   .page-main {
     padding-left: 30px;
+    padding-top: 50px;
   }
 
   .page-main h1 {
@@ -450,6 +453,11 @@ main p {
   .project-list {
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
+  }
+
+  .page-main {
+    padding-left: 30px;
+    padding-top: 50px;
   }
 }
 
