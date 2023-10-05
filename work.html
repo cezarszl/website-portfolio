@@ -17,23 +17,32 @@
 
 <body>
     <header class="page-header">
-        <img src="img/logo.svg" class="page-header__item"
+        <img src="img/logo.svg" id="logo" class="page-header__item"
             alt="Personal logo of Cezary Szal, a text logo in uppercase letters that consists of my name">
         <nav class="main-navigation page-header__item">
+
+
+            <input id="menu-toggle" type="checkbox" />
+            <label class="menu-button-container" for="menu-toggle">
+                <div class="menu-button"></div>
+            </label>
+
             <ul role="menubar" class="navigation-list">
                 <li role="presentation">
-                    <a href="index.html" role="menuitem" class="navigation-list__item">Home</a>
+                    <a href="index.html" role="menuitem" class="navigation-list__item--active">Home</a>
                 </li>
                 <li role="presentation">
                     <a href="about.html" role="menuitem" class="navigation-list__item">About me</a>
+
                 </li>
                 <li role="presentation">
-                    <a href="work.html" role="menuitem" class="navigation-list__item--active">Work</a>
+                    <a href="work.html" role="menuitem" class="navigation-list__item">Work</a>
                 </li>
                 <li role="presentation">
                     <a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a>
                 </li>
             </ul>
+
         </nav>
     </header>
     <main class="page-main">
