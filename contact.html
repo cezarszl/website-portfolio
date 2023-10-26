@@ -52,25 +52,24 @@
             Cezary Szal<br>
             Dresdener Str. 41E<br>
             30179 Hannover<br>
-            Deutschland<br>
+            Germany<br>
             <br>
             <a href="tel:+4915218514872">Click to call my telephone number (+49) 1521 8514 872</a><br>
             Skype <a href="skype:cezarszl">cezarszl</a><br>
             <a href="mailto:cezarszl@gmail.com">cezarszl@gmail.com</a>
         </div>
-        <a href="mailto:cezarszl@gmail.com">Contact me</a>
-        <br>
-        <form action="/" method="get" onsubmit="alert('Thanks for contacting me')">
-            <table>
-                <tr>
-                    <td><label class="standard-label" for="contact-email">Email:</label></td>
-                    <td><input type="email" id="contact-email" required></td>
-                </tr>
-                <tr>
-                    <td><label class="standard-label" for="msg">Message:</label></td>
-                    <td><textarea maxlength="100" id="msg"></textarea></td>
-                </tr>
-            </table>
+        <form id="contact-form">
+             <!-- action="/" method="get"> -->
+            <div class="input-wrapper">
+                <label class="standard-label" for="contact-email">E-mail:</label>
+                <input id="contact-email">
+            </div>
+
+            <div class="input-wrapper">
+                <label class="standard-label" for="contact-msg">Message:</label>
+                <textarea id="contact-msg" maxlength="50" rows="3"></textarea>
+            </div>
+
             <input type="submit" id="submit-button" value="Send message">
         </form>
     </main>
@@ -82,6 +81,7 @@
             <a href="http://linkedin.com" target="_blank"><img src="img/linkedin.svg" alt="linkedin"></a>
         </div>
     </footer>
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>

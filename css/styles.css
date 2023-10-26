@@ -196,6 +196,24 @@ main p {
   text-align: center;
 }
 
+.input-wrapper {
+  margin: 20px 0 20px;
+
+}
+.input-wrapper label {
+  display: inline-block;
+  min-width: 75px;
+}
+.input-wrapper textarea {
+  vertical-align: middle;
+  resize: none;
+}
+
+.input-wrapper .error-message {
+  color: red;
+  font-size: 0.8em;
+}
+
 #submit-button {
   background-color: #80ac3e;
   color: #000;
@@ -424,6 +442,7 @@ main p {
     border-bottom: 1px solid #444;
   }
 }
+
 
 /* iPads, Tablets */
 @media screen and (min-width: 481px) and (max-width: 768px) {
